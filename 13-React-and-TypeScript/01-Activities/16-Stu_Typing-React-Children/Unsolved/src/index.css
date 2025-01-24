@@ -1,9 +1,0 @@
-* {
-  box-sizing: border-box;
-  margin: 1em;
-}
-
-#root {
-  max-width: 70%;
-  margin: 0 auto;
-}
