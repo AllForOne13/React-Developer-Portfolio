@@ -1,0 +1,28 @@
+.resume {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .resume-section {
+    margin-bottom: 40px;
+  }
+  
+  .experience-item,
+  .education-item {
+    margin-bottom: 20px;
+  }
+  
+  .experience-item h3,
+  .education-item h3 {
+    margin: 0;
+  }
+  
+  ul {
+    padding-left: 20px;
+    list-style-type: none;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
