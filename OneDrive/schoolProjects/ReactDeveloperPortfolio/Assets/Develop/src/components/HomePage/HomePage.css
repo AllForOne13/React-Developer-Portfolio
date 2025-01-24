@@ -1,0 +1,82 @@
+/*Basic layout */
+.project {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .project p {
+    font-size: 1em;
+    color: #666;
+  }
+  
+
+/*Hover effect */
+.project {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .project p {
+    font-size: 1em;
+    color: #666;
+  }
+  
+  /* All screen size */
+
+.project {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .project p {
+    font-size: 1em;
+    color: #666;
+  }
+  
+  @media (max-width: 600px) {
+    .project {
+      padding: 10px;
+    }
+  
+    .project h2 {
+      font-size: 1.2em;
+    }
+  
+    .project p {
+      font-size: 0.9em;
+    }
+  }
+  
